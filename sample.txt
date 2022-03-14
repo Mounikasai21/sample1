@@ -1,10 +1,5 @@
 
 
----------- Forwarded message ---------
-From: shaiksha vali <shaikshavali19102001@gmail.com>
-Date: Mon, 14 Mar 2022 at 12:17
-Subject:
-To: <vinayvinay192001@gmail.com>
 
 
 var censoredWords = ["sad", "bad", "mad"]:
