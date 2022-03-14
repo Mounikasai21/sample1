@@ -1,0 +1,29 @@
+
+
+---------- Forwarded message ---------
+From: shaiksha vali <shaikshavali19102001@gmail.com>
+Date: Mon, 14 Mar 2022 at 12:17
+Subject:
+To: <vinayvinay192001@gmail.com>
+
+
+var censoredWords = ["sad", "bad", "mad"]:
+var customCensoredWords = [];  
+function censor(inStr) {
+ for (idx in censoredWords) {
+  inStr = inStr.replace(censoredWords[idx],"****");
+ }
+ for (idx in customCensoredWords) {
+ inStr = inStr.replace(customCensoredWords[idx],"****");
+ }
+ return inStr;
+}
+function addCensoredWord(word){
+ customCensoredWords.push(word);
+}
+function getcensoredwords(){
+ return censoredWords.concat(customCensoredWords);
+}
+exports.censor = censor;
+exports.addCensoredWord = addCensoredWord;
+exports.getCensoredWords = getCensoredWords; 
